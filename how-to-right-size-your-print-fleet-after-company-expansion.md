@@ -39,15 +39,22 @@ Right-sizing isn't about cutting devices for the sake of it. It's about making s
 
 ## Step 1: Run a Print Audit First
 
-Before you move, remove, or purchase a single device, you need to know what you actually have. [Pharos Systems' guide to conducting print audits](https://www.pharos.com/blog/conducting-print-audits/) defines a print audit as a systematic inventory of every output device, paired with usage data showing how much each one is actually being used.
+The single most important thing you can do before moving, removing, or purchasing a single printer is to understand what you currently have. This is called a print audit, and it's the foundation of every successful right-sizing effort.
 
-For every device, document: its make, model, and age; its physical location; its monthly page volume; whether it prints mostly color or black-and-white; and whether employees use it only to print or also to scan and copy. [Applied Innovation](https://www.appliedinnovation.com/imaging-services/4-tips-for-getting-the-most-out-of-your-existing-print-fleet/) recommends collecting at least 90 days of usage data before drawing conclusions. A device that looks idle in one month might have a seasonal spike the next.
+[Pharos Systems' guide to conducting print audits](https://www.pharos.com/blog/conducting-print-audits/) defines a print audit as a systematic inventory of every output device in your organization, paired with usage data that tells you how much each device is actually being used.
 
-Most enterprise printers expose usage counters through a standard web browser on the same network, so your IT team can gather this data without physically touching each device. For larger fleets, print management software automates the collection across all networked devices at once.
+A complete print audit captures:
 
-If your expansion included an acquisition, [PaperCut's guide to managing legacy print infrastructure after acquisition](https://www.papercut.com/blog/print_tips/managing-legacy-print-infrastructure-when-acquiring-a-new-business/) advises keeping the acquired fleet as a separate zone during the audit. Don't try to integrate the inventories until you have a clear picture of each independently — legacy devices often run different drivers, toner types, and firmware that need to be understood before consolidation.
+### What to Document for Every Device
 
-> **A practical tip:** Pull the last six months of printer-related IT support tickets. The devices generating the most tickets are costing you the most in hidden labor, not just in supplies.
+- **Make, model, and age** - Older devices cost more to maintain and are often incompatible with modern print management software.
+- **Location** - Which floor, department, or office is the device in? Is it centrally placed or tucked in a corner where few people walk past?
+- **Print volume** - How many pages does this device produce per month? Most modern printers log this automatically.
+- **Color vs. black-and-white ratio** - Color printing costs 5-10 times more per page than black-and-white. If a device is printing mostly black-and-white, a cheaper mono device might serve that location better.
+- **Functionality used** - Is this device being used as a printer only, or do employees also scan and copy on it? A full multifunction device is wasted if it's only ever printing.
+- **Who has access** - Is this a shared departmental device or a personal desktop printer? Personal printers are almost always a cost inefficiency.
+
+[Applied Innovation's tips for getting the most from your existing print fleet](https://www.appliedinnovation.com/imaging-services/4-tips-for-getting-the-most-out-of-your-existing-print-fleet/) recommend pulling at least 90 days of usage data before drawing any conclusions. A device that looks idle might have a seasonal spike, and removing it could create problems three months later.
 
 ---
 
