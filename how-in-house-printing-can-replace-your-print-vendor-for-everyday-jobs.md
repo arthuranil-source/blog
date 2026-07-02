@@ -45,7 +45,7 @@ Bringing printing in-house does not mean building a print room. For most offices
 
 **A multifunction device for everyday volume.** For the bulk of routine output — reports, manuals, handouts, invoices — a departmental multifunction printer does the heavy lifting, combining printing, copying, and scanning in one machine. A device like the [Ricoh IM C2010 A3 colour multifunction printer](https://uaeprinter.com/product/ricoh-im-c2010-a3-color-multifunction-printer/) covers colour and mono, A4 and A3, on a single footprint — which means the same machine that prints your proposals also digitizes your paperwork. You can compare the current [Ricoh MFP range at Epic Solutions](https://epicsolutionsme.com/ricoh-mfp/) to match a model to your monthly volume.
 
-**A compact colour printer for client-facing work.** Colour is where vendor bills grow fastest, and it is also where a small dedicated device pays for itself. A compact single-function colour printer such as the [Ricoh P C375](https://www.ricoh-me.com/en/products/office-printing/single-function-printers/p-c375/) handles proposals, flyers, and presentation documents at a per-page cost you control, with no minimum order attached. For budgeting, current [printer prices are listed here](https://epicsolutionsme.com/best_printer_prices/).
+**A compact colour printer for client-facing work.** Colour is where vendor bills grow fastest, and it is also where a small dedicated device pays for itself. A compact single-function colour printer such as the OKI C650dn handles proposals, flyers, and presentation documents at a per-page cost you control, with no minimum order attached. For budgeting, current [printer prices are listed here](https://epicsolutionsme.com/best_printer_prices/).
 
 Sizing the device to your real monthly page count is the single most important decision. An underspecified printer becomes a bottleneck; an overspecified one wastes capital.
 
@@ -98,7 +98,7 @@ The practical model is a split: the office handles the recurring 80 percent of j
 ## How to Make the Switch Without Disruption
 
 1. **Collect three months of vendor invoices.** Separate everyday jobs (documents, flyers, cards, badges) from specialty jobs (large format, finishing, bulk runs). The everyday column is your savings target.
-2. **Size a device to that volume.** Match your monthly page count to a device class — an A3 colour MFP like the Ricoh IM C2010 for a busy department, or a compact unit like the Ricoh P C375 for a small team.
+2. **Size a device to that volume.** Match your monthly page count to a device class — an A3 colour MFP like the Ricoh IM C2010 for a busy department, or a compact unit like the OKI C650dn for a small team.
 3. **Add print management from day one.** Cost tracking and secure release are much easier to introduce with the new device than to retrofit later.
 4. **Move jobs gradually.** Start with internal documents, then client-facing colour work, then cards and badges. Keep your vendor for the specialty column.
 5. **Review after one quarter.** Compare consumable spend plus equipment cost against the old invoices. Most offices find the everyday column alone justifies the device.
@@ -140,7 +140,6 @@ The print vendor habit survives on inertia. For everyday jobs, the numbers now f
 - Ricoh Middle East, "Software and Apps," retrieved 2026-07-02, https://www.ricoh-me.com/en/products/software-apps/
 - Ricoh Middle East, "Software Catalogue," retrieved 2026-07-02, https://www.ricoh-me.com/en/software/
 - Ricoh Middle East, "Ricoh Universal Print App," retrieved 2026-07-02, https://www.ricoh-me.com/en/software/ricoh-universal-print-app/
-- Ricoh Middle East, "P C375 Colour Single-Function Printer," retrieved 2026-07-02, https://www.ricoh-me.com/en/products/office-printing/single-function-printers/p-c375/
 - UAE Printer, "Ricoh IM C2010 A3 Color Multifunction Printer," retrieved 2026-07-02, https://uaeprinter.com/product/ricoh-im-c2010-a3-color-multifunction-printer/
 - InfomeUAE, "In-House ID Card Printing: A Smart Move Towards Saving Time and Money," retrieved 2026-07-02, https://www.infomeuae.com/blog/tech/in-house-id-card-printing:-a-smart-move-towards-saving-time-and-money
 - Izra UAE, "Does a Printing Center Dubai Offer Secure Printing for Confidential Documents," retrieved 2026-07-02, https://izrauae.ae/2025/12/23/does-a-printing-center-dubai-offer-secure-printing-for-confidential-documents/
