@@ -45,7 +45,7 @@ Bringing printing in-house does not mean building a print room. For most offices
 
 **A multifunction device for everyday volume.** For the bulk of routine output — reports, manuals, handouts, invoices — a departmental multifunction printer does the heavy lifting, combining printing, copying, and scanning in one machine. A device like the [Ricoh IM C2010 A3 colour multifunction printer](https://uaeprinter.com/product/ricoh-im-c2010-a3-color-multifunction-printer/) covers colour and mono, A4 and A3, on a single footprint — which means the same machine that prints your proposals also digitizes your paperwork. You can compare the current [Ricoh MFP range at Epic Solutions](https://epicsolutionsme.com/ricoh-mfp/) to match a model to your monthly volume.
 
-**A compact colour printer for client-facing work.** Colour is where vendor bills grow fastest, and it is also where a small dedicated device pays for itself. A compact single-function colour printer such as the OKI C650dn handles proposals, flyers, and presentation documents at a per-page cost you control, with no minimum order attached. For budgeting, current [printer prices are listed here](https://epicsolutionsme.com/best_printer_prices/).
+**A compact colour printer for client-facing work.** Colour is where vendor bills grow fastest, and it is also where a small dedicated device pays for itself. A compact single-function colour printer such as the [OKI C650dn](https://epicsolutionsme.com/oki-c650dn/) handles proposals, flyers, and presentation documents at a per-page cost you control, with no minimum order attached. For budgeting, current [printer prices are listed here](https://epicsolutionsme.com/best_printer_prices/).
 
 Sizing the device to your real monthly page count is the single most important decision. An underspecified printer becomes a bottleneck; an overspecified one wastes capital.
 
@@ -146,4 +146,5 @@ The print vendor habit survives on inertia. For everyday jobs, the numbers now f
 - Ricoh Group, "Sustainability Report 2025," retrieved 2026-07-02, https://www.ricoh.com/-/Media/Ricoh/Sites/com/sustainability/report/pdf/Ricoh_Group_Sustainability_Report_2025_en_web.pdf
 - Ricoh Group, "Environmentally Conscious Products List," retrieved 2026-07-02, https://www.ricoh.com/sustainability/environment/product/list
 - Epic Solutions, "Ricoh MFP Range," retrieved 2026-07-02, https://epicsolutionsme.com/ricoh-mfp/
+- Epic Solutions, "OKI C650dn," retrieved 2026-07-02, https://epicsolutionsme.com/oki-c650dn/
 - Epic Solutions, "Best Printer Prices," retrieved 2026-07-02, https://epicsolutionsme.com/best_printer_prices/
