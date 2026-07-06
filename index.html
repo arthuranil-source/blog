@@ -1,0 +1,570 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Authorized Distributor — OKI Production Printers</title>
+<meta name="description" content="Authorized distributor for OKI graphic arts production printers. Digital LED systems for heavy stocks up to 360gsm, 1.3m banners, heat transfers, packaging mockups and retail signage.">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Archivo:wght@400;500;600&family=Big+Shoulders+Display:wght@600;700;800&display=swap" rel="stylesheet">
+<style>
+  :root {
+    --paper: #F6F9FA;
+    --panel: #FFFFFF;
+    --ink: #151A1F;
+    --ink-2: #4C5760;
+    --line: #C9D2D6;
+    --line-soft: #E1E8EB;
+    --accent: #E4002B;
+    --accent-ink: #FFFFFF;
+    --cyan: #00AEEF;
+    --magenta: #EC008C;
+    --yellow: #FFD400;
+    --key: #1A1A1A;
+    --shadow: 0 1px 2px rgba(21, 26, 31, .06);
+  }
+  @media (prefers-color-scheme: dark) {
+    :root {
+      --paper: #15191D;
+      --panel: #1C2126;
+      --ink: #E9EEF0;
+      --ink-2: #9BA7AE;
+      --line: #3A434A;
+      --line-soft: #2A3238;
+      --accent: #FF3355;
+      --accent-ink: #17090D;
+      --key: #E9EEF0;
+      --shadow: none;
+    }
+  }
+  :root[data-theme="light"] {
+    --paper: #F6F9FA; --panel: #FFFFFF; --ink: #151A1F; --ink-2: #4C5760;
+    --line: #C9D2D6; --line-soft: #E1E8EB; --accent: #E4002B; --accent-ink: #FFFFFF;
+    --key: #1A1A1A; --shadow: 0 1px 2px rgba(21, 26, 31, .06);
+  }
+  :root[data-theme="dark"] {
+    --paper: #15191D; --panel: #1C2126; --ink: #E9EEF0; --ink-2: #9BA7AE;
+    --line: #3A434A; --line-soft: #2A3238; --accent: #FF3355; --accent-ink: #17090D;
+    --key: #E9EEF0; --shadow: none;
+  }
+
+  * { box-sizing: border-box; margin: 0; padding: 0; }
+  html { scroll-behavior: smooth; }
+  @media (prefers-reduced-motion: reduce) { html { scroll-behavior: auto; } }
+
+  body {
+    background: var(--paper);
+    color: var(--ink);
+    font-family: "Archivo", "Helvetica Neue", Helvetica, Arial, sans-serif;
+    font-size: 1.0625rem;
+    line-height: 1.6;
+  }
+  .display {
+    font-family: "Big Shoulders Display", "Arial Narrow", "Helvetica Neue Condensed", Impact, sans-serif;
+  }
+  .mono {
+    font-family: ui-monospace, "SF Mono", "Cascadia Mono", Menlo, Consolas, monospace;
+    font-variant-numeric: tabular-nums;
+  }
+
+  a { color: inherit; }
+  a:focus-visible, button:focus-visible {
+    outline: 2px solid var(--accent);
+    outline-offset: 3px;
+  }
+
+  /* ---- CMYK control strip ---- */
+  .control-strip {
+    display: flex;
+    height: 8px;
+  }
+  .control-strip span { flex: 1; }
+  .control-strip .c { background: var(--cyan); }
+  .control-strip .m { background: var(--magenta); }
+  .control-strip .y { background: var(--yellow); }
+  .control-strip .k { background: var(--key); }
+
+  .wrap {
+    max-width: 68rem;
+    margin: 0 auto;
+    padding: 0 1.5rem;
+  }
+
+  /* ---- Masthead ---- */
+  header.masthead {
+    border-bottom: 1px solid var(--line);
+  }
+  .masthead-inner {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    gap: 1rem;
+    padding: 1rem 0;
+    flex-wrap: wrap;
+  }
+  .brand {
+    display: flex;
+    align-items: center;
+    gap: .75rem;
+    text-decoration: none;
+  }
+  .reg-mark { flex: none; }
+  .brand-name {
+    font-size: 1.25rem;
+    font-weight: 700;
+    letter-spacing: .04em;
+    text-transform: uppercase;
+    line-height: 1.1;
+  }
+  .brand-name small {
+    display: block;
+    font-size: .625rem;
+    font-weight: 600;
+    letter-spacing: .22em;
+    color: var(--accent);
+  }
+  nav.site-nav {
+    display: flex;
+    gap: 1.75rem;
+    font-size: .8125rem;
+    font-weight: 600;
+    letter-spacing: .1em;
+    text-transform: uppercase;
+  }
+  nav.site-nav a {
+    text-decoration: none;
+    color: var(--ink-2);
+    padding: .25rem 0;
+    border-bottom: 2px solid transparent;
+  }
+  nav.site-nav a:hover { color: var(--ink); border-bottom-color: var(--accent); }
+
+  /* ---- Hero ---- */
+  .hero {
+    position: relative;
+    padding: 4.5rem 0 3.5rem;
+  }
+  .crop { position: absolute; width: 18px; height: 18px; color: var(--line); }
+  .crop::before, .crop::after { content: ""; position: absolute; background: currentColor; }
+  .crop::before { width: 100%; height: 1px; }
+  .crop::after { width: 1px; height: 100%; }
+  .crop.tl { top: 1.25rem; left: 0; }
+  .crop.tr { top: 1.25rem; right: 0; transform: scaleX(-1); }
+  .crop.tl::before, .crop.tr::before { top: 0; left: 0; }
+  .crop.tl::after, .crop.tr::after { top: 0; left: 0; }
+
+  .eyebrow {
+    font-size: .75rem;
+    font-weight: 600;
+    letter-spacing: .24em;
+    text-transform: uppercase;
+    color: var(--accent);
+    margin-bottom: 1.25rem;
+  }
+  .hero h1 {
+    font-size: clamp(3rem, 8.5vw, 6rem);
+    font-weight: 800;
+    line-height: .95;
+    text-transform: uppercase;
+    letter-spacing: .005em;
+    text-wrap: balance;
+    max-width: 18ch;
+  }
+  .hero h1 em {
+    font-style: normal;
+    color: var(--accent);
+  }
+  .hero .lead {
+    margin-top: 1.75rem;
+    max-width: 56ch;
+    font-size: 1.1875rem;
+    color: var(--ink-2);
+    text-wrap: pretty;
+  }
+  .hero-actions {
+    display: flex;
+    gap: 1rem;
+    margin-top: 2.25rem;
+    flex-wrap: wrap;
+  }
+  .btn {
+    display: inline-block;
+    padding: .8rem 1.6rem;
+    font-size: .875rem;
+    font-weight: 600;
+    letter-spacing: .12em;
+    text-transform: uppercase;
+    text-decoration: none;
+    border: 1px solid var(--ink);
+  }
+  .btn-solid {
+    background: var(--accent);
+    border-color: var(--accent);
+    color: var(--accent-ink);
+  }
+  .btn-solid:hover { filter: brightness(1.08); }
+  .btn-ghost:hover { background: var(--panel); }
+
+  /* ---- Spec rail ---- */
+  .spec-rail {
+    margin-top: 3.5rem;
+    border-top: 1px solid var(--line);
+    border-bottom: 1px solid var(--line);
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+  }
+  .spec {
+    padding: 1.5rem 1.25rem 1.5rem 0;
+  }
+  .spec + .spec { border-left: 1px solid var(--line-soft); padding-left: 1.25rem; }
+  .spec .num {
+    font-size: clamp(2rem, 4vw, 3rem);
+    font-weight: 700;
+    line-height: 1;
+    text-transform: uppercase;
+  }
+  .spec .num sub { font-size: .45em; vertical-align: baseline; letter-spacing: .05em; }
+  .spec .cap {
+    margin-top: .5rem;
+    font-size: .75rem;
+    font-weight: 600;
+    letter-spacing: .14em;
+    text-transform: uppercase;
+    color: var(--ink-2);
+  }
+  @media (max-width: 720px) {
+    .spec-rail { grid-template-columns: 1fr 1fr; }
+    .spec { padding: 1.25rem 1rem 1.25rem 0; }
+    .spec:nth-child(3) { border-left: none; padding-left: 0; border-top: 1px solid var(--line-soft); }
+    .spec:nth-child(4) { border-top: 1px solid var(--line-soft); }
+  }
+
+  /* ---- Sections ---- */
+  section { padding: 4.5rem 0 0; }
+  .section-head {
+    display: flex;
+    align-items: baseline;
+    gap: 1.25rem;
+    border-bottom: 2px solid var(--ink);
+    padding-bottom: .75rem;
+    margin-bottom: 2rem;
+  }
+  .section-head h2 {
+    font-size: clamp(1.75rem, 3.5vw, 2.5rem);
+    font-weight: 700;
+    text-transform: uppercase;
+    letter-spacing: .01em;
+    line-height: 1.05;
+  }
+  .section-head .tab {
+    font-size: .6875rem;
+    font-weight: 600;
+    letter-spacing: .2em;
+    text-transform: uppercase;
+    color: var(--accent);
+    white-space: nowrap;
+  }
+  .section-intro { max-width: 60ch; color: var(--ink-2); margin-bottom: 2rem; text-wrap: pretty; }
+
+  /* Media spec table */
+  .media-table { border-top: 1px solid var(--line); }
+  .media-row {
+    display: grid;
+    grid-template-columns: 11rem 1fr;
+    gap: 1.5rem;
+    padding: 1.25rem 0;
+    border-bottom: 1px solid var(--line-soft);
+  }
+  .media-row dt {
+    font-size: .8125rem;
+    font-weight: 600;
+    letter-spacing: .12em;
+    text-transform: uppercase;
+  }
+  .media-row dt .val {
+    display: block;
+    margin-top: .2rem;
+    font-size: 1.375rem;
+    letter-spacing: 0;
+    color: var(--accent);
+  }
+  .media-row dd { color: var(--ink-2); max-width: 58ch; }
+  @media (max-width: 640px) {
+    .media-row { grid-template-columns: 1fr; gap: .5rem; }
+  }
+
+  /* Benefits */
+  .benefits {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 1px;
+    background: var(--line-soft);
+    border: 1px solid var(--line-soft);
+  }
+  .benefit {
+    background: var(--panel);
+    padding: 1.75rem;
+    box-shadow: var(--shadow);
+  }
+  .benefit h3 {
+    font-size: 1.375rem;
+    font-weight: 700;
+    text-transform: uppercase;
+    margin-bottom: .5rem;
+  }
+  .benefit p { color: var(--ink-2); font-size: 1rem; }
+  @media (max-width: 640px) { .benefits { grid-template-columns: 1fr; } }
+
+  /* Applications */
+  .apps {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    gap: 1.25rem;
+  }
+  .app {
+    border: 1px solid var(--line);
+    background: var(--panel);
+    padding: 1.5rem 1.25rem;
+    box-shadow: var(--shadow);
+  }
+  .app .dot {
+    width: 14px; height: 14px;
+    border-radius: 50%;
+    margin-bottom: 1rem;
+  }
+  .app:nth-child(1) .dot { background: var(--cyan); }
+  .app:nth-child(2) .dot { background: var(--magenta); }
+  .app:nth-child(3) .dot { background: var(--yellow); }
+  .app:nth-child(4) .dot { background: var(--key); }
+  .app h3 {
+    font-size: 1.25rem;
+    font-weight: 700;
+    text-transform: uppercase;
+    line-height: 1.1;
+    margin-bottom: .5rem;
+  }
+  .app p { color: var(--ink-2); font-size: .9375rem; }
+  @media (max-width: 900px) { .apps { grid-template-columns: 1fr 1fr; } }
+  @media (max-width: 520px) { .apps { grid-template-columns: 1fr; } }
+
+  /* Contact */
+  .contact-panel {
+    border: 2px solid var(--ink);
+    padding: 2.5rem 2rem;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    gap: 2rem;
+    flex-wrap: wrap;
+  }
+  .contact-panel h2 {
+    font-size: clamp(2rem, 4.5vw, 3rem);
+    font-weight: 800;
+    text-transform: uppercase;
+    line-height: 1;
+    max-width: 16ch;
+    text-wrap: balance;
+  }
+  .contact-panel p { color: var(--ink-2); max-width: 44ch; margin-top: .75rem; }
+
+  footer {
+    margin-top: 4.5rem;
+    border-top: 1px solid var(--line);
+  }
+  .footer-inner {
+    display: flex;
+    justify-content: space-between;
+    gap: 1rem;
+    flex-wrap: wrap;
+    padding: 1.5rem 0 2rem;
+    font-size: .8125rem;
+    color: var(--ink-2);
+  }
+
+  @media (prefers-reduced-motion: no-preference) {
+    .hero > .wrap > * {
+      animation: rise .6s ease-out backwards;
+    }
+    .hero .eyebrow { animation-delay: 0s; }
+    .hero h1 { animation-delay: .08s; }
+    .hero .lead { animation-delay: .16s; }
+    .hero .hero-actions { animation-delay: .24s; }
+    .hero .spec-rail { animation-delay: .32s; }
+    @keyframes rise {
+      from { opacity: 0; transform: translateY(10px); }
+      to { opacity: 1; transform: none; }
+    }
+  }
+</style>
+</head>
+<body>
+
+<div class="control-strip" aria-hidden="true">
+  <span class="c"></span><span class="m"></span><span class="y"></span><span class="k"></span>
+  <span class="c"></span><span class="m"></span><span class="y"></span><span class="k"></span>
+  <span class="c"></span><span class="m"></span><span class="y"></span><span class="k"></span>
+  <span class="c"></span><span class="m"></span><span class="y"></span><span class="k"></span>
+</div>
+
+<header class="masthead">
+  <div class="wrap masthead-inner">
+    <a class="brand" href="#top">
+      <svg class="reg-mark" width="34" height="34" viewBox="0 0 34 34" aria-hidden="true">
+        <circle cx="17" cy="17" r="10" fill="none" stroke="var(--accent)" stroke-width="2"/>
+        <line x1="17" y1="1" x2="17" y2="33" stroke="var(--accent)" stroke-width="2"/>
+        <line x1="1" y1="17" x2="33" y2="17" stroke="var(--accent)" stroke-width="2"/>
+      </svg>
+      <span class="brand-name display">Production Print<small>Authorized OKI Distributor</small></span>
+    </a>
+    <nav class="site-nav" aria-label="Site">
+      <a href="#media">Media</a>
+      <a href="#benefits">Benefits</a>
+      <a href="#applications">Applications</a>
+      <a href="#contact">Contact</a>
+    </nav>
+  </div>
+</header>
+
+<main id="top">
+  <section class="hero" aria-labelledby="hero-title" style="padding-top:4.5rem">
+    <div class="wrap" style="position:relative">
+      <span class="crop tl" aria-hidden="true"></span>
+      <span class="crop tr" aria-hidden="true"></span>
+      <p class="eyebrow">Graphic Arts &middot; Digital LED &middot; Production Grade</p>
+      <h1 id="hero-title" class="display">Commercial-grade color, <em>right from your desktop.</em></h1>
+      <p class="lead">Take your business to the next level with professional OKI graphic arts printers built for ultimate creativity. These heavy-duty digital LED machines deliver commercial-grade performance, stunning color depth, and unmatched media flexibility &mdash; whether you're producing vibrant short-run packaging, customized garments, or high-end marketing materials.</p>
+      <div class="hero-actions">
+        <a class="btn btn-solid" href="#contact">Request a quote</a>
+        <a class="btn btn-ghost" href="#media">See media specs</a>
+      </div>
+
+      <div class="spec-rail mono" role="list" aria-label="Key specifications">
+        <div class="spec" role="listitem">
+          <div class="num display">360<sub>gsm</sub></div>
+          <div class="cap">Max stock weight</div>
+        </div>
+        <div class="spec" role="listitem">
+          <div class="num display">1.3<sub>m</sub></div>
+          <div class="cap">Banner length</div>
+        </div>
+        <div class="spec" role="listitem">
+          <div class="num display">A6&rarr;</div>
+          <div class="cap">Labels to banners</div>
+        </div>
+        <div class="spec" role="listitem">
+          <div class="num display">320<sub>gsm</sub></div>
+          <div class="cap">Auto duplex</div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <section id="media" aria-labelledby="media-title">
+    <div class="wrap">
+      <div class="section-head">
+        <span class="tab">Media handling</span>
+        <h2 id="media-title" class="display">Unrivaled media flexibility</h2>
+      </div>
+      <p class="section-intro">Break free from standard paper limitations. These advanced production systems handle ultra-thick stocks, heavy cardstocks, and synthetic materials with ease.</p>
+      <dl class="media-table">
+        <div class="media-row">
+          <dt>Heavyweight stocks <span class="val display">Up to 360gsm</span></dt>
+          <dd>Print seamlessly on heavy cardstocks and board-weight materials that ordinary office printers can't feed.</dd>
+        </div>
+        <div class="media-row">
+          <dt>Diverse media <span class="val display">Film &amp; synthetics</span></dt>
+          <dd>Work with gloss paper, film, transfer sheets, and waterproof media for jobs that need to survive the real world.</dd>
+        </div>
+        <div class="media-row">
+          <dt>Vast size range <span class="val display">A6 to 1.3m</span></dt>
+          <dd>Output everything from small A6 labels up to 1.3-meter banners &mdash; one system, the full format spectrum.</dd>
+        </div>
+        <div class="media-row">
+          <dt>Duplex printing <span class="val display">Up to 320gsm</span></dt>
+          <dd>Automate double-sided printing on heavy media, keeping thick-stock jobs moving without manual re-feeding.</dd>
+        </div>
+      </dl>
+    </div>
+  </section>
+
+  <section id="benefits" aria-labelledby="benefits-title">
+    <div class="wrap">
+      <div class="section-head">
+        <span class="tab">Why in-house</span>
+        <h2 id="benefits-title" class="display">Key business benefits</h2>
+      </div>
+      <div class="benefits">
+        <div class="benefit">
+          <h3 class="display">On-demand production</h3>
+          <p>Eliminate high setup costs and minimum order quantities. Short runs become profitable the day the machine lands.</p>
+        </div>
+        <div class="benefit">
+          <h3 class="display">Digital LED technology</h3>
+          <p>Sharp text, smooth gradients, and highly reliable printing &mdash; the LED head has no moving parts to drift or fail.</p>
+        </div>
+        <div class="benefit">
+          <h3 class="display">Low cost of ownership</h3>
+          <p>Maximize profitability with high-capacity consumables and energy-efficient operation, run after run.</p>
+        </div>
+        <div class="benefit">
+          <h3 class="display">In-house control</h3>
+          <p>Bring lucrative graphic design, proofing, and prototyping workflows completely in-house &mdash; on your schedule, not a trade printer's.</p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <section id="applications" aria-labelledby="apps-title">
+    <div class="wrap">
+      <div class="section-head">
+        <span class="tab">What you can produce</span>
+        <h2 id="apps-title" class="display">Common industry applications</h2>
+      </div>
+      <div class="apps">
+        <div class="app">
+          <div class="dot" aria-hidden="true"></div>
+          <h3 class="display">Garment personalization</h3>
+          <p>Create high-quality heat transfers for textiles and apparel.</p>
+        </div>
+        <div class="app">
+          <div class="dot" aria-hidden="true"></div>
+          <h3 class="display">Packaging &amp; mockups</h3>
+          <p>Produce realistic design prototypes, custom boxes, and labels.</p>
+        </div>
+        <div class="app">
+          <div class="dot" aria-hidden="true"></div>
+          <h3 class="display">Retail signage</h3>
+          <p>Print striking point-of-sale displays, window clings, and promotional materials.</p>
+        </div>
+        <div class="app">
+          <div class="dot" aria-hidden="true"></div>
+          <h3 class="display">Stationery &amp; invites</h3>
+          <p>Design high-end corporate stationery and event invitations on textured media.</p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <section id="contact" aria-labelledby="contact-title">
+    <div class="wrap">
+      <div class="contact-panel">
+        <div>
+          <h2 id="contact-title" class="display">Ready to bring production in-house?</h2>
+          <p>Talk to us about the right OKI production system for your workload, media, and budget. As an authorized distributor, we supply, configure, and support every machine we sell.</p>
+        </div>
+        <a class="btn btn-solid" href="mailto:arthuranil@gmail.com?subject=OKI%20production%20printer%20quote">Request a quote</a>
+      </div>
+    </div>
+  </section>
+</main>
+
+<footer>
+  <div class="wrap footer-inner">
+    <span>Authorized distributor for OKI production printers.</span>
+    <span>OKI is a trademark of Oki Electric Industry Co., Ltd.</span>
+  </div>
+</footer>
+
+</body>
+</html>
