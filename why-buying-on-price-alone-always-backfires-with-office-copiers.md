@@ -23,7 +23,7 @@ This article explains where the real money goes, why the cheapest machine so oft
 > **Key Takeaways**
 > - The purchase price is only a fraction of what a copier costs over its life; toner, parts, service, and downtime make up the rest.
 > - Cheap machines are frequently built around low-yield, high-priced cartridges — the running cost is where the "saving" is recovered from you.
-> - A single out-of-contract copier repair commonly runs into hundreds of dollars, and drum or fuser replacements add more.
+> - A single out-of-contract copier repair commonly runs into thousands of dirhams, and drum or fuser replacements add more.
 > - Cost per page and total cost of ownership, not sticker price, are the only fair ways to compare two machines.
 > - The right question is not "what does it cost to buy?" but "what does it cost to run for five years at our volume?"
 
@@ -43,9 +43,9 @@ What sits underneath the sticker price? [BBEC's budgeting guide to the hidden co
 
 Here is the mechanism that makes price-only buying backfire, and it is worth understanding because it is not an accident — it is a business model.
 
-Budget machines are typically designed around low-yield cartridges: cartridges that cost nearly as much as premium ones but print far fewer pages. The manufacturer sells the hardware near cost and earns the margin back on consumables. [The Printer Copier Guys](https://pcgcopiers.com/2026/05/07/the-real-cost-of-owning-a-copier/) note that bargain devices can end up costing several times more per page than business-class machines — the difference between paying a couple of cents per page and paying eight or more. On a modest 3,000 pages a month, that gap alone is thousands of dirhams a year, every year.
+Budget machines are typically designed around low-yield cartridges: cartridges that cost nearly as much as premium ones but print far fewer pages. The manufacturer sells the hardware near cost and earns the margin back on consumables. [The Printer Copier Guys](https://pcgcopiers.com/2026/05/07/the-real-cost-of-owning-a-copier/) note that bargain devices can end up costing several times more per page than business-class machines — the difference between paying a few fils per page and paying close to thirty. On a modest 3,000 pages a month, that gap alone is thousands of dirhams a year, every year.
 
-Wear parts tell the same story. Drums, fusers, and rollers on entry-level machines are built to lighter duty cycles. Run office volumes through a device built for occasional home use, and those parts fail early. [Copier Finder's 2026 guide to copier maintenance contract costs](https://blog.copierfinder.com/copier-maintenance-contract-cost/) puts numbers on what that means without a service agreement: a single repair typically runs $350 to $800 in parts and labour, a drum replacement $200 to $500, and a fuser kit $150 to $400. Two or three such events can exceed the entire "saving" from choosing the cheaper machine — in the first year.
+Wear parts tell the same story. Drums, fusers, and rollers on entry-level machines are built to lighter duty cycles. Run office volumes through a device built for occasional home use, and those parts fail early. [Copier Finder's 2026 guide to copier maintenance contract costs](https://blog.copierfinder.com/copier-maintenance-contract-cost/) puts numbers on what that means without a service agreement: a single repair typically runs the equivalent of AED 1,300 to AED 2,900 in parts and labour, a drum replacement AED 750 to AED 1,850, and a fuser kit AED 550 to AED 1,450. Two or three such events can exceed the entire "saving" from choosing the cheaper machine — in the first year.
 
 [XPO Business's roundup of common copier mistakes that cost businesses time and money](https://www.xpobusiness.com/post/common-copier-mistakes-that-cost-businesses-time-and-money) puts buying on upfront price at the top of the list for exactly this reason: the cheapest machine shifts costs from the visible quote to the invisible monthly bleed.
 
@@ -94,7 +94,7 @@ Yes — at genuinely low volumes. If an office prints a few hundred pages a mont
 
 ### What does a copier really cost to run?
 
-Industry pricing guides put business copier running costs at roughly one to two cents per black-and-white page and four to ten cents per colour page under a service agreement. Multiply those rates by your real monthly volume over five years, add the hardware, and you have the true cost — usually a multiple of the sticker price.
+Industry pricing guides put business copier running costs at roughly 4 to 7 fils per black-and-white page and 15 to 37 fils per colour page under a service agreement. [Docmix's guide to calculating your true print cost per page in the UAE](https://www.docmix.me/blog/calculate-your-business-true-print-cost-per-page-in-the-uae-25808) walks through the calculation for local businesses. Multiply those rates by your real monthly volume over five years, add the hardware, and you have the true cost — usually a multiple of the sticker price.
 
 ### Should I buy or lease an office copier?
 
@@ -102,7 +102,7 @@ Leasing spreads the cost into a predictable monthly amount and typically bundles
 
 ### Why not just repair the copier when it breaks, instead of paying for a contract?
 
-Because out-of-contract repairs are priced against your urgency. Typical figures run $350 to $800 per repair visit, $200 to $500 for a drum, and $150 to $400 for a fuser kit — and the machine is down while you wait. Offices printing more than a couple of thousand pages monthly almost always come out ahead on a service agreement.
+Because out-of-contract repairs are priced against your urgency. Typical figures run the equivalent of AED 1,300 to AED 2,900 per repair visit, AED 750 to AED 1,850 for a drum, and AED 550 to AED 1,450 for a fuser kit — and the machine is down while you wait. Offices printing more than a couple of thousand pages monthly almost always come out ahead on a service agreement.
 
 ---
 
@@ -127,3 +127,6 @@ If you would like help sizing a machine to your volume and seeing the genuine fi
 - Creative Office Solutions, "Cost Per Copy Agreements Explained for Office Managers," retrieved 2026-07-14, https://www.cosatl.com/cost-per-copy-agreements-explained-for-office-managers/
 - Doing Better Business, "The Lowest Cost Per Copy or Page Is Probably Not Your Best Buying Criteria," retrieved 2026-07-14, https://www.doingbetterbusiness.com/the-lowest-cost-per-copy-or-page-is-probably-not-your-best-buying-criteria/
 - Doceo, "How Much Do Copiers Cost? Breaking Down Pricing," retrieved 2026-07-14, https://www.mydoceo.com/blog/how-much-do-copiers-cost-breaking-down-pricing-and-what-influences-it-in-2025/
+- Docmix, "Calculate Your Business True Print Cost Per Page in the UAE," retrieved 2026-07-14, https://www.docmix.me/blog/calculate-your-business-true-print-cost-per-page-in-the-uae-25808
+
+Note: repair and per-page figures cited from international pricing guides are converted to UAE dirhams at approximately AED 3.67 per US dollar and rounded.
