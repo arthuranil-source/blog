@@ -9,13 +9,13 @@ tags: ["Ricoh", "Always Current Technology", "multifunction printers", "office p
 
 # Ricoh Always Current Technology: What It Is and Why It Matters for Your Business
 
-Think about the phone in your pocket. You bought it once, but it keeps getting better: new features appear and security holes get fixed. Office printers traditionally did not work like that. The machine you installed was the machine you kept, unchanged, until the lease ran out.
+Think about the phone in your pocket. You bought it once, but it keeps getting better: new features appear and security holes get fixed. Office printers traditionally did not work like that. The machine you installed on day one stayed exactly the same until the day you replaced it.
 
 Ricoh Always Current Technology changes that. This guide explains in plain terms what it is, how it works, what it actually delivers, and whether it matters for your business.
 
 > **Key Takeaways**
 > - Ricoh Always Current Technology is a built-in update system on Ricoh's newer "Intelligent Devices" (the IM series of multifunction printers), introduced in early 2019.
-> - It lets your printer download new features, security improvements, and apps during its life, without waiting for a new machine or the end of a contract.
+> - It lets your printer download new features, security improvements, and apps during its life, without waiting for a new machine.
 > - The main business benefits are better security, a longer useful life for the device, less downtime, and more value from the same investment.
 > - It is only available on supported Ricoh models, and updates still need someone responsible for approving and installing them.
 
@@ -40,7 +40,7 @@ In simple terms, the process looks like this:
 
 There is a second part to the system: apps. Ricoh runs an online store called the RICOH Application Site, where new applications can be downloaded directly to supported devices ([Ricoh Latin America](https://www.ricoh-americalatina.com/en/products/always-current-technology)). These can add specific capabilities, such as connecting the printer to a cloud storage service, without replacing any hardware.
 
-The key point for a business owner is this: according to Ricoh, there is no need to call a technician or wait until the end of a contract to get new functions ([Ricoh Europe](https://www.ricoh-europe.com/products/always-current-technology/)).
+The key point for a business owner is this: according to Ricoh, there is no need to call a technician or wait for a replacement machine to get new functions ([Ricoh Europe](https://www.ricoh-europe.com/products/always-current-technology/)).
 
 ## What Kind of Updates Does It Deliver?
 
@@ -75,7 +75,7 @@ A printer that receives regular security updates is a much harder target than on
 
 ### 2. A longer, more useful life for the machine
 
-Most businesses keep an office printer for several years, often the length of a lease. Without updates, a device is at its most modern on installation day and dates steadily after that. With Always Current Technology, it can gain features that did not exist when it was bought, so it stays useful for the whole contract.
+Most businesses keep an office printer for several years. Without updates, a device is at its most modern on installation day and dates steadily after that. With Always Current Technology, it can gain features that did not exist when it was bought, so it stays useful for years, not just months.
 
 ### 3. Less disruption and fewer service visits
 
@@ -83,7 +83,7 @@ Ricoh says the updates are designed to minimise downtime ([Ricoh Latin America](
 
 ### 4. More value from the same investment
 
-When you buy or lease a printer, you pay for what it can do. If that grows over time with no extra hardware, you get more from the same spend, and you never need to replace a device just to gain a new feature such as scanning to a cloud service.
+When you invest in a printer, you pay for what it can do. If that grows over time with no extra hardware, you get more from the same spend, and you never need to replace a device just to gain a new feature such as scanning to a cloud service.
 
 ## What Are the Limitations?
 
